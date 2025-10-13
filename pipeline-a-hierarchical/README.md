@@ -114,4 +114,4 @@ This hierarchical data enables:
 
 ---
 
-**Next Step**: After collecting hierarchical data, run the [Data Consolidation Pipeline](../data-consolidation/) to create analysis-ready consolidated datasets.
+**Data Consolidation**: After collecting hierarchical data, run the `QuarterToOne.ipynb` notebook in this folder to consolidate quarterly data into analysis-ready yearly datasets (the `*_ALL_FY.csv` files in the data/ folder).
