@@ -1,0 +1,73 @@
+budget_function_code,budget_function_title,budget_subfunction_code,budget_subfunction_title
+000,Governmental Receipts,000,Governmental Receipts
+050,National Defense,050,National Defense
+050,National Defense,051,Department of Defense-Military
+050,National Defense,053,Atomic energy defense activities
+050,National Defense,054,Defense-related activities
+150,International Affairs,151,International development and humanitarian assistance
+150,International Affairs,152,International security assistance
+150,International Affairs,153,Conduct of foreign affairs
+150,International Affairs,154,Foreign information and exchange activities
+150,International Affairs,155,International financial programs
+250,"General Science, Space, and Technology",251,General science and basic research
+250,"General Science, Space, and Technology",252,"Space flight, research, and supporting activities"
+270,Energy,271,Energy supply
+270,Energy,272,Energy conservation
+270,Energy,274,Emergency energy preparedness
+270,Energy,276,"Energy information, policy, and regulation"
+300,Natural Resources and Environment,301,Water resources
+300,Natural Resources and Environment,302,Conservation and land management
+300,Natural Resources and Environment,303,Recreational resources
+300,Natural Resources and Environment,304,Pollution control and abatement
+300,Natural Resources and Environment,306,Other natural resources
+350,Agriculture,351,Farm income stabilization
+350,Agriculture,352,Agricultural research and services
+370,Commerce and Housing Credit,371,Mortgage credit
+370,Commerce and Housing Credit,372,Postal service
+370,Commerce and Housing Credit,373,Deposit insurance
+370,Commerce and Housing Credit,376,Other advancement of commerce
+400,Transportation,400,Transportation
+400,Transportation,401,Ground transportation
+400,Transportation,402,Air transportation
+400,Transportation,403,Water transportation
+400,Transportation,407,Other transportation
+450,Community and Regional Development,451,Community development
+450,Community and Regional Development,452,Area and regional development
+450,Community and Regional Development,453,Disaster relief and insurance
+500,"Education, Training, Employment, and Social Services",501,"Elementary, secondary, and vocational education"
+500,"Education, Training, Employment, and Social Services",502,Higher education
+500,"Education, Training, Employment, and Social Services",503,Research and general education aids
+500,"Education, Training, Employment, and Social Services",504,Training and employment
+500,"Education, Training, Employment, and Social Services",505,Other labor services
+500,"Education, Training, Employment, and Social Services",506,Social services
+550,Health,551,Health care services
+550,Health,552,Health research and training
+550,Health,554,Consumer and occupational health and safety
+570,Medicare,571,Medicare
+600,Income Security,601,General retirement and disability insurance (excluding social se
+600,Income Security,602,Federal employee retirement and disability
+600,Income Security,603,Unemployment compensation
+600,Income Security,604,Housing assistance
+600,Income Security,605,Food and nutrition assistance
+600,Income Security,609,Other income security
+650,Social Security,651,Social security
+700,Veterans Benefits and Services,701,Income security for veterans
+700,Veterans Benefits and Services,702,"Veterans education, training, and rehabilitation"
+700,Veterans Benefits and Services,703,Hospital and medical care for veterans
+700,Veterans Benefits and Services,704,Veterans housing
+700,Veterans Benefits and Services,705,Other veterans benefits and services
+750,Administration of Justice,751,Federal law enforcement activities
+750,Administration of Justice,752,Federal litigative and judicial activities
+750,Administration of Justice,753,Federal correctional activities
+750,Administration of Justice,754,Criminal justice assistance
+800,General Government,801,Legislative functions
+800,General Government,802,Executive direction and management
+800,General Government,803,Central fiscal operations
+800,General Government,804,General property and records management
+800,General Government,805,Central personnel management
+800,General Government,806,General purpose fiscal assistance
+800,General Government,808,Other general government
+800,General Government,809,Deductions for offsetting receipts
+900,Net Interest,901,Interest on Treasury debt securities (gross)
+900,Net Interest,908,Other interest
+990,Multiple functions,999,Multiple functions
