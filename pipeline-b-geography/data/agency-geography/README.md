@@ -1,9 +1,9 @@
 # Agency-Geography Data
 
-## 🏛️ Overview
+## Overview
 This folder contains **agency-filtered geographic spending data** showing federal spending by location broken down by specific agencies. Each dataset provides both funding and awarding agency perspectives.
 
-## 📊 Datasets
+## Datasets
 
 ### Dual Agency Perspectives
 Each geographic layer includes both funding and awarding agency views:
@@ -24,7 +24,7 @@ Each geographic layer includes both funding and awarding agency views:
 - **`geo_district_funding_ALL_FY.csv`**: District spending by funding agencies
 - **`geo_district_awarding_ALL_FY.csv`**: District spending by awarding agencies
 
-## 🔍 Enhanced Data Schema
+## Enhanced Data Schema
 Each dataset contains all basic geography columns plus agency attribution:
 
 ### Geographic & Financial Data
@@ -48,7 +48,7 @@ For county datasets only:
 - **`state_code`**: State FIPS code (first 2 digits of county code)
 - **`state_name`**: State name derived from FIPS mapping
 
-## 📈 Analysis Applications
+## Analysis Applications
 
 ### Agency Geographic Footprint
 - **Which agencies spend where**: Agency-specific geographic distribution
@@ -65,10 +65,10 @@ For county datasets only:
 - **Geographic equity by agency**: Fair distribution analysis per agency
 - **Funding flow analysis**: Track money from funding to awarding agencies by location
 
-## 🗃️ Supporting Files
+## Supporting Files
 - **`toptier_roster_cache.csv`**: Cached federal agency directory used for processing
 
-## 🔗 Related Data
+## Related Data
 For total geographic spending without agency breakdown, see [`basic-geography/`](../basic-geography/) folder.
 
 ---

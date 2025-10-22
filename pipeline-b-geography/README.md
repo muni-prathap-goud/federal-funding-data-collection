@@ -1,17 +1,17 @@
-# 🌍 Pipeline B: Geography-Based Federal Spending Data Collection
+# Pipeline B: Geography-Based Federal Spending Data Collection
 
 ## Overview
 A **geographic-dimensional pipeline** that collects federal spending data by location, providing insights into where federal funds are being spent across the United States and globally.
 
 ## Two Independent Branches
 
-### 🗺️ Branch A: Geography (Basic)
+### Branch A: Geography (Basic)
 **What it answers**: *"How much federal money was obligated where (country/state/county/district) in each fiscal year and quarter?"*
 
-### 🏛️ Branch B: Geography-by-Agency  
+### Branch B: Geography-by-Agency  
 **What it answers**: *"For each federal agency (funding or awarding), how much was obligated where in each fiscal year and quarter?"*
 
-## 📋 Geographic Granularity Levels
+## Geographic Granularity Levels
 
 Both branches collect data at four geographic levels:
 - **Country**: International and domestic spending totals
@@ -19,7 +19,7 @@ Both branches collect data at four geographic levels:
 - **County**: County-level spending within states
 - **District**: Congressional district-level spending
 
-## 🗺️ Branch A: Geography (Basic) Details
+## Branch A: Geography (Basic) Details
 
 ### API Configuration
 - **Endpoint**: `POST /api/v2/search/spending_by_geography/`
@@ -52,7 +52,7 @@ geography/basic/
 - `state_code`: For counties (derived from code[:2])
 - **Dedupe Key**: `("fy","quarter","geo_layer","code")`
 
-## 🏛️ Branch B: Geography-by-Agency Details
+## Branch B: Geography-by-Agency Details
 
 ### API Configuration
 - **Agency Roster**: `GET /api/v2/references/toptier_agencies/` (cached)
@@ -90,7 +90,7 @@ geography/geography_by_agency/
 - `agency_name`: Official agency name
 - **Dedupe Key**: `("fy","quarter","geo_layer","code","agency_type","agency_code")`
 
-## 📅 Temporal Coverage
+## Temporal Coverage
 
 ### FY/Quarter Date Mapping
 - **Q1**: `(fy-1)-10-01` to `(fy-1)-12-31`
@@ -103,7 +103,7 @@ geography/geography_by_agency/
 - **Quarters**: All quarters (Q1, Q2, Q3, Q4)
 - **Total Periods**: 68 quarter combinations per geographic level
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Runtime Features
 - **Thread Pools**: Configurable worker limits per geographic layer
@@ -117,7 +117,7 @@ geography/geography_by_agency/
 - **Retry Run**: Processes only failed tasks from previous runs
 - **Task Grid Processing**: Systematic coverage of all parameter combinations
 
-## 🚀 Usage
+## Usage
 
 ### Geography (Basic) Execution
 ```python
@@ -159,7 +159,7 @@ run_geography(
 )
 ```
 
-## 💡 What This Pipeline Answers
+## What This Pipeline Answers
 
 ### Geographic Questions
 | Branch | Focus | Key Question |
@@ -175,7 +175,7 @@ run_geography(
 - **State-by-state federal investment** tracking and trends
 - **Cross-temporal geographic analysis** showing spending shifts over time
 
-## 🎯 Key Insights Enabled
+## Key Insights Enabled
 
 - **Regional Equity**: Are federal funds distributed fairly across regions?
 - **Economic Impact**: Which areas benefit most from federal spending?

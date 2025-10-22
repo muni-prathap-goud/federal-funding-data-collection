@@ -1,4 +1,4 @@
-# 📊 Pipeline A: Hierarchical Federal Funding Data Collection
+# Pipeline A: Hierarchical Federal Funding Data Collection
 
 ## Overview
 A **6-stage hierarchical data pipeline** that systematically collects federal spending data across organizational levels, creating a complete picture from high-level budget categories down to individual transactions.
@@ -8,29 +8,29 @@ A **6-stage hierarchical data pipeline** that systematically collects federal sp
 Budget Function → Budget Subfunction → Agency → Federal Account → Recipient → Award
 ```
 
-## 📋 Processing Stages
+## Processing Stages
 
-### 🧩 Stage 1: Budget Functions
+### Stage 1: Budget Functions
 **Purpose**: Top-level federal spending categories (e.g., National Defense, Health, Education)
 - **Notebook**: `budget_function_subfunction_hierarchical_mapping.ipynb`
 - **API Endpoint**: `/api/v2/spending/` with `type="budget_function"`
 - **Output**: Quarterly budget function data with 3-digit codes
 
-### 🧩 Stage 2: Budget Subfunctions  
+### Stage 2: Budget Subfunctions  
 **Purpose**: Detailed breakdown of each budget function into specific programs
 - **Notebook**: `Function and Subfunction.ipynb`
 - **API Endpoint**: `/api/v2/spending/` with `type="budget_subfunction"`
 - **Input**: Budget function data from Stage 1
 - **Output**: Subfunction spending data with hierarchical relationships
 
-### 🧩 Stage 3: Agencies
+### Stage 3: Agencies
 **Purpose**: Federal agencies responsible for spending within each subfunction
 - **Notebook**: Integrated within subfunction collection
 - **API Endpoint**: `/api/v2/spending/` with `type="agency"`
 - **Input**: Budget subfunction filters
 - **Output**: Agency-level spending data
 
-### 🧩 Stage 4: Federal Accounts
+### Stage 4: Federal Accounts
 **Purpose**: Treasury accounts where federal funds are actually stored and managed
 - **Notebooks**: 
   - `federal_account.ipynb` - Basic federal account collection
@@ -39,21 +39,21 @@ Budget Function → Budget Subfunction → Agency → Federal Account → Recipi
 - **Input**: Agency data from Stage 3
 - **Output**: Federal account details with treasury account codes
 
-### 🧩 Stage 5: Recipients
+### Stage 5: Recipients
 **Purpose**: Entities that received federal funding (companies, universities, states, nonprofits)
 - **Notebook**: `recipient.ipynb`
 - **API Endpoint**: `/api/v2/spending/` with `type="recipient"`
 - **Input**: Federal account data from Stage 4
 - **Output**: Recipient details with UEI/DUNS codes and obligation amounts
 
-### 🧩 Stage 6: Awards
+### Stage 6: Awards
 **Purpose**: Individual grants, contracts, and payments made to recipients
 - **Notebook**: `awards.ipynb`
 - **API Endpoint**: `/api/v2/spending/` with `type="award"`
 - **Input**: Federal account data from Stage 4
 - **Output**: Award-level transaction data
 
-## 🔗 Hierarchical Relationships
+## Hierarchical Relationships
 
 | Level | Parent Key | Child Key | Relationship |
 |-------|------------|-----------|--------------|
@@ -63,7 +63,7 @@ Budget Function → Budget Subfunction → Agency → Federal Account → Recipi
 | Federal Account | `federal_account_code` | `recipient_id` | One-to-many |
 | Recipient | `recipient_id` | `award_id` | One-to-many |
 
-## 💡 What This Pipeline Answers
+## What This Pipeline Answers
 
 | Dataset | Level | Key Question |
 |---------|-------|-------------|
@@ -74,7 +74,7 @@ Budget Function → Budget Subfunction → Agency → Federal Account → Recipi
 | Recipients | Entity-level | Who received the federal funds? |
 | Awards | Transaction-level | What exact awards or contracts were made? |
 
-## 🚀 Usage
+## Usage
 
 ### Execution Order
 Run notebooks in the following sequence for complete data collection:
@@ -87,13 +87,13 @@ Run notebooks in the following sequence for complete data collection:
 4. **Awards**: `awards.ipynb`
 
 ### Key Features
-- **🚀 Parallel Processing**: ThreadPoolExecutor with 10-50 concurrent workers
-- **🔄 Intelligent Retry System**: Period-scoped failure recovery
-- **🛡️ Defensive Programming**: Robust error handling and file corruption protection
-- **📅 Quarter-Only Strategy**: Focused data collection approach
-- **🔑 Composite Key Deduplication**: Prevents duplicate records across runs
+- **Parallel Processing**: ThreadPoolExecutor with 10-50 concurrent workers
+- **Intelligent Retry System**: Period-scoped failure recovery
+- **Defensive Programming**: Robust error handling and file corruption protection
+- **Quarter-Only Strategy**: Focused data collection approach
+- **Composite Key Deduplication**: Prevents duplicate records across runs
 
-## 📊 Expected Outputs
+## Expected Outputs
 
 ### Final Consolidated Datasets (after running data-consolidation pipeline):
 - **`agency_ALL_FY.csv`** (681KB) - Complete agency directory with spending data
@@ -102,7 +102,7 @@ Run notebooks in the following sequence for complete data collection:
 - **`recipients_ALL_FY.csv`** (1.5GB) - Complete recipient database
 - **`awards_ALL_FY.csv`** (610MB) - Individual awards/contracts/grants data
 
-## 🎯 Analysis Capabilities
+## Analysis Capabilities
 
 This hierarchical data enables:
 - **Budget allocation analysis** across federal missions

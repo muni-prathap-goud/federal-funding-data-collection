@@ -1,8 +1,8 @@
 # Pipeline A: Hierarchical Data Files
 
-## 📊 Datasets in this Folder
+## Datasets in this Folder
 
-### 📋 Budget Function & Subfunction Reference Data
+### Budget Function & Subfunction Reference Data
 
 #### `budget_functions.csv`
 - **Purpose**: Top-level federal spending categories
@@ -22,7 +22,23 @@
 - **Usage**: Understanding budget structure and spending flows
 - **Key Columns**: `budget_function_code`, `budget_subfunction_code`, relationships, amounts
 
-### 🔄 Consolidated Multi-Year Datasets (ALL_FY Files)
+### Quarterly Budget Spending Data
+
+#### `budget_functions_quarterly_all.csv` (623 records)
+- **Purpose**: Quarterly spending amounts by top-level budget function
+- **Content**: Fiscal year and quarter-specific spending data for each budget function
+- **Key Columns**: `fy`, `quarter`, `budget_function_code`, `budget_function_name`, `amount`
+- **Usage**: Time series analysis, seasonal spending patterns, priority tracking
+- **Coverage**: Multi-year quarterly data with actual spending amounts
+
+#### `budget_subfunctions_quarterly_all.csv` (2,094 records)
+- **Purpose**: Detailed quarterly spending by budget subfunction/program
+- **Content**: Granular program-level spending data across fiscal years and quarters
+- **Key Columns**: `fy`, `quarter`, `budget_function_code`, `budget_subfunction_code`, `budget_subfunction_name`, `amount`
+- **Usage**: Program-level analysis, detailed spending trends, hierarchical aggregation
+- **Coverage**: Complete subfunction spending data with temporal granularity
+
+### Consolidated Multi-Year Datasets (ALL_FY Files)
 
 #### `agency_ALL_FY.csv` (681KB)
 - **Purpose**: Complete agency directory with multi-year spending data
@@ -53,14 +69,14 @@
 - **Key Columns**: `fy`, `quarter`, `budget_function_code`, `federal_account_code`, `recipient_id`, `recipient_name`, `recipient_code`, `obligated_amount`
 - **Usage**: Recipient analysis, funding network research, beneficiary studies
 
-## 🔄 Data Collection Process
+## Data Collection Process
 
 These datasets are created by running the hierarchical pipeline notebooks:
 
 1. **`budget_function_subfunction_hierarchical_mapping.ipynb`** - Creates the mapping file
 2. **`Function and Subfunction.ipynb`** - Collects detailed function and subfunction data
 
-## 📈 Analysis Applications
+## Analysis Applications
 
 - **Budget Category Analysis**: Understanding federal mission priorities
 - **Program-Level Spending**: Detailed breakdown within each budget function  
@@ -68,7 +84,7 @@ These datasets are created by running the hierarchical pipeline notebooks:
 - **Trend Analysis**: Changes in budget allocations over time
 - **Comparative Analysis**: Spending patterns across different government functions
 
-## 🔗 Next Steps
+## Next Steps
 
 After collecting this hierarchical reference data:
 1. Use these datasets as filters for deeper data collection (agencies, accounts, recipients, awards)

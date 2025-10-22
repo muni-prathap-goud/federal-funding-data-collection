@@ -1,9 +1,9 @@
 # Basic Geography Data
 
-## 📍 Overview
+## Overview
 This folder contains **basic geographic spending data** collected without agency filtering. These datasets show total federal spending by location across all agencies combined.
 
-## 📊 Datasets
+## Datasets
 
 ### Geographic Layers
 Each dataset covers all fiscal years (FY2008-2024) with quarterly granularity:
@@ -28,7 +28,7 @@ Each dataset covers all fiscal years (FY2008-2024) with quarterly granularity:
 - **Geographic Coverage**: All U.S. congressional districts (accounting for redistricting)
 - **Use Cases**: Political analysis, district-level federal investment tracking
 
-## 🔍 Data Schema
+## Data Schema
 Each dataset contains standardized columns:
 - **`code`**: Geographic identifier (country code, state FIPS, county FIPS, district ID)
 - **`name`**: Geographic display name
@@ -38,14 +38,14 @@ Each dataset contains standardized columns:
 - **`quarter`**: Quarter (1-4)
 - **`geo_layer`**: Geographic granularity level
 
-## 📈 Analysis Applications
+## Analysis Applications
 - **Total spending by location** without agency attribution
 - **Geographic distribution patterns** across jurisdictions
 - **Regional equity analysis** comparing per-capita spending
 - **Economic impact studies** by location
 - **Baseline geographic analysis** for comparison with agency-filtered data
 
-## 🔗 Related Data
+## Related Data
 For agency-specific geographic analysis, see the [`agency-geography/`](../agency-geography/) folder.
 
 ---

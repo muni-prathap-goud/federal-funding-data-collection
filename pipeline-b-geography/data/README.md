@@ -1,12 +1,12 @@
 # Pipeline B: Geography Data Files
 
-## 🌍 Geographic Datasets
+## Geographic Datasets
 
 This folder contains **organized geographic spending datasets** collected using Pipeline B notebooks, separated into two distinct analysis approaches.
 
-## 📂 Data Organization
+## Data Organization
 
-### 🗺️ [`basic-geography/`](basic-geography/)
+### [`basic-geography/`](basic-geography/)
 **Total spending by location** without agency filtering:
 - `geography_country_all_FY2008_2024.csv` - International and domestic totals
 - `geography_state_all_FY2008_2024.csv` - State-level spending distribution
@@ -15,7 +15,7 @@ This folder contains **organized geographic spending datasets** collected using 
 
 **Use for**: Regional equity analysis, total geographic impact studies, baseline location analysis
 
-### 🏛️ [`agency-geography/`](agency-geography/)
+### [`agency-geography/`](agency-geography/)
 **Agency-filtered spending by location** with dual perspectives:
 - `geo_*_funding_ALL_FY.csv` - Spending by funding agencies across locations
 - `geo_*_awarding_ALL_FY.csv` - Spending by awarding agencies across locations
@@ -23,14 +23,14 @@ This folder contains **organized geographic spending datasets** collected using 
 
 **Use for**: Agency geographic footprint analysis, funding vs awarding comparisons, multi-dimensional studies
 
-## 🔄 Data Collection Process
+## Data Collection Process
 
 To populate this folder, run the Pipeline B notebooks:
 
 1. **`Geography_basic.ipynb`** - Collects basic geographic spending data
 2. **`agency_geography.ipynb`** - Collects agency-filtered geographic data
 
-## 📊 Dataset Schemas
+## Dataset Schemas
 
 ### Basic Geography Schema
 - `code`: Geographic identifier (ISO/FIPS/District code)
@@ -46,7 +46,7 @@ To populate this folder, run the Pipeline B notebooks:
 - `agency_code`: 3-digit toptier agency code
 - `agency_name`: Official agency name
 
-## 📈 Analysis Applications
+## Analysis Applications
 
 - **Geographic Distribution**: Where federal funds are being spent
 - **Regional Equity**: Fair distribution analysis across regions
@@ -54,7 +54,7 @@ To populate this folder, run the Pipeline B notebooks:
 - **Congressional Analysis**: District-level spending patterns
 - **Economic Impact**: Regional effects of federal spending
 
-## 🎯 Coverage
+## Coverage
 
 - **Geographic Levels**: Country, State, County, Congressional District
 - **Temporal Coverage**: FY2008-2024, Quarterly granularity
