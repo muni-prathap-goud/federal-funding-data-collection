@@ -186,4 +186,4 @@ run_geography(
 
 ---
 
-**Next Step**: After collecting geographic data, run the [Data Consolidation Pipeline](../data-consolidation/) to create analysis-ready consolidated datasets.
+**Data Organization**: This pipeline creates organized geographic datasets in the `data/` folder, with separate branches for basic geography and agency-geography analysis.

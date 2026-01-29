@@ -1,6 +1,6 @@
 # Federal Funding Data Collection Pipelines
 
-A comprehensive data collection system for extracting federal spending data from USASpending.gov API, organized into **three specialized pipelines** for different analytical perspectives.
+A comprehensive data collection system for extracting federal spending data from USASpending.gov API, organized into **two specialized pipelines** for different analytical perspectives.
 
 ## Quick Start
 
@@ -10,7 +10,6 @@ Choose your analysis focus and navigate to the appropriate pipeline:
 |---------------|----------|------------|
 | **Budget & Agency Analysis** | Hierarchical Pipeline | [`pipeline-a-hierarchical/`](pipeline-a-hierarchical/) |
 | **Geographic Analysis** | Geography Pipeline | [`pipeline-b-geography/`](pipeline-b-geography/) |
-| **Data Consolidation** | Consolidation Pipeline | [`data-consolidation/`](data-consolidation/) |
 
 ## Pipeline Overview
 
@@ -28,20 +27,12 @@ Choose your analysis focus and navigate to the appropriate pipeline:
 
 **[Full Documentation & Notebooks →](pipeline-b-geography/)**
 
-### Data Consolidation Pipeline
-**What it does**: Transforms quarterly data into analysis-ready yearly and multi-year consolidated datasets
-
-**Use for**: Creating final datasets for analysis, quality validation, data integration
-
-**[Full Documentation & Notebooks →](data-consolidation/)**
-
 ## Project Structure
 
 ```
 federal-funding-data-collection/
 ├── pipeline-a-hierarchical/          # Hierarchical Pipeline + Data
 ├── pipeline-b-geography/             # Geography Pipeline + Data
-├── data-consolidation/               # Consolidation Pipeline + Final Datasets
 ├── README.md                         # This overview
 └── requirements.txt                  # Python dependencies
 ```
@@ -63,7 +54,6 @@ pip install -r requirements.txt
 1. **Choose your pipeline** based on analysis needs (see Quick Start table above)
 2. **Navigate to the pipeline folder** and read the detailed README
 3. **Run the Jupyter notebooks** in the suggested order
-4. **Optionally run data consolidation** to create final analysis-ready datasets
 
 ### Running Pipelines
 
@@ -78,17 +68,11 @@ Navigate to `pipeline-b-geography/` and follow the detailed documentation for:
 - Basic geographic spending collection
 - Agency-filtered geographic spending collection
 
-#### Data Consolidation
-Navigate to `data-consolidation/` and follow the detailed documentation for:
-- Quarter → Year data consolidation
-- Year → ALL-years data consolidation
-- Data validation and quality checks
-
 ## Key Features
 
 - **Parallel Processing**: Efficient data collection with concurrent API calls
 - **Intelligent Retry Logic**: Robust error handling and recovery
-- **Multiple Data Perspectives**: Hierarchical, geographic, and consolidated views
+- **Multiple Data Perspectives**: Hierarchical and geographic views
 - **Data Quality Assurance**: Built-in validation and quality checks
 - **Comprehensive Documentation**: Detailed READMEs in each pipeline folder
 - **Analysis-Ready Output**: Final datasets ready for research and analysis
@@ -113,12 +97,6 @@ Navigate to `data-consolidation/` and follow the detailed documentation for:
 - Analyze federal spending by location
 - Compare regional distribution of federal funds
 - Study congressional district funding patterns
-
-### For Data Consolidation
-**Start here**: [`data-consolidation/`](data-consolidation/)
-- Convert quarterly collections to analysis-ready datasets
-- Create multi-year consolidated files
-- Perform comprehensive data quality validation
 
 ---
 

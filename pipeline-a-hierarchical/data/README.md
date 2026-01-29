@@ -89,7 +89,7 @@ These datasets are created by running the hierarchical pipeline notebooks:
 After collecting this hierarchical reference data:
 1. Use these datasets as filters for deeper data collection (agencies, accounts, recipients, awards)
 2. Run the remaining Pipeline A notebooks to collect entity-level data
-3. Use [Data Consolidation Pipeline](../../data-consolidation/) to create analysis-ready datasets
+3. Use the `QuarterToOne.ipynb` notebook in the main pipeline folder to consolidate quarterly data into analysis-ready yearly datasets
 
 ---
 

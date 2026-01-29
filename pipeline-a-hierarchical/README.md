@@ -95,7 +95,7 @@ Run notebooks in the following sequence for complete data collection:
 
 ## Expected Outputs
 
-### Final Consolidated Datasets (after running data-consolidation pipeline):
+### Final Consolidated Datasets (after running QuarterToOne.ipynb):
 - **`agency_ALL_FY.csv`** (681KB) - Complete agency directory with spending data
 - **`federal_accounts_ALL_FY.csv`** (6.1MB) - Treasury account information  
 - **`federal_accounts_with_agency_ALL_FY.csv`** (7.5MB) - Enhanced federal account data
