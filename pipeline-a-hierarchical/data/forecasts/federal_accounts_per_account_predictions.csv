@@ -1,0 +1,321 @@
+ds,federal_account_id,acct_name,model,actual,predicted
+2022-10-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,280866924448.67,282316070737.12024
+2023-01-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,595506885127.22,582015604952.4932
+2023-04-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,904855185880.51,892579867427.8009
+2023-07-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,1214721948679.82,1214915033706.7925
+2023-10-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,317755611463.49,291299100786.5022
+2024-01-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,646512405957.72,619157808320.9818
+2024-04-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,979566827928.36,948596047897.9004
+2024-07-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,Prophet,1312591926785.68,1282809719971.3428
+2022-10-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,280866924448.67,1.718219611442068e+18
+2023-01-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,595506885127.22,4.5762785502747494e+18
+2023-04-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,904855185880.51,9.330328170310676e+18
+2023-07-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,1214721948679.82,1.7238138577400242e+19
+2023-10-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,317755611463.49,3.3711310144583004e+19
+2024-01-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,646512405957.72,6.111252356100514e+19
+2024-04-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,979566827928.36,1.0669126632925407e+20
+2024-07-01,4616,Federal Old-Age and Survivors Insurance Trust Fund - Treasury Managed,SARIMA,1312591926785.68,1.825062225957925e+20
+2022-10-01,4324,Interest on the Public Debt (Indefinite),Prophet,210005326305.35,200269372753.68994
+2023-01-01,4324,Interest on the Public Debt (Indefinite),Prophet,384226935172.2,369198092915.583
+2023-04-01,4324,Interest on the Public Debt (Indefinite),Prophet,652403292964.03,632074880516.4861
+2023-07-01,4324,Interest on the Public Debt (Indefinite),Prophet,879306558151.29,892189172401.5405
+2023-10-01,4324,Interest on the Public Debt (Indefinite),Prophet,288010722716.21,252368229721.9319
+2024-01-01,4324,Interest on the Public Debt (Indefinite),Prophet,522022587689.53,454463874001.389
+2024-04-01,4324,Interest on the Public Debt (Indefinite),Prophet,867745646510.98,705466073425.05
+2024-07-01,4324,Interest on the Public Debt (Indefinite),Prophet,1133036890149.16,893079312191.6836
+2022-10-01,4324,Interest on the Public Debt (Indefinite),SARIMA,210005326305.35,281233272907.614
+2023-01-01,4324,Interest on the Public Debt (Indefinite),SARIMA,384226935172.2,424902439915.8431
+2023-04-01,4324,Interest on the Public Debt (Indefinite),SARIMA,652403292964.03,645323805697.3496
+2023-07-01,4324,Interest on the Public Debt (Indefinite),SARIMA,879306558151.29,846001938105.8347
+2023-10-01,4324,Interest on the Public Debt (Indefinite),SARIMA,288010722716.21,403585036362.45795
+2024-01-01,4324,Interest on the Public Debt (Indefinite),SARIMA,522022587689.53,552740991733.159
+2024-04-01,4324,Interest on the Public Debt (Indefinite),SARIMA,867745646510.98,768460955187.2905
+2024-07-01,4324,Interest on the Public Debt (Indefinite),SARIMA,1133036890149.16,973701613557.1771
+2022-10-01,5450,Grants to States for Medicaid,Prophet,167110279408.85,175578313018.6436
+2023-01-01,5450,Grants to States for Medicaid,Prophet,383032482873.11,391475318999.94037
+2023-04-01,5450,Grants to States for Medicaid,Prophet,529451130637.93,545573533278.7101
+2023-07-01,5450,Grants to States for Medicaid,Prophet,665383213331.94,755375217964.2809
+2023-10-01,5450,Grants to States for Medicaid,Prophet,174794612295.45,197308751421.9425
+2024-01-01,5450,Grants to States for Medicaid,Prophet,385514546911.86,425808814121.71136
+2024-04-01,5450,Grants to States for Medicaid,Prophet,527789998483.13,587500982578.5376
+2024-07-01,5450,Grants to States for Medicaid,Prophet,689574729050.88,694135181591.4862
+2022-10-01,5450,Grants to States for Medicaid,SARIMA,167110279408.85,297790004103.03186
+2023-01-01,5450,Grants to States for Medicaid,SARIMA,383032482873.11,505153518683.41394
+2023-04-01,5450,Grants to States for Medicaid,SARIMA,529451130637.93,659920831580.905
+2023-07-01,5450,Grants to States for Medicaid,SARIMA,665383213331.94,851530334011.2808
+2023-10-01,5450,Grants to States for Medicaid,SARIMA,174794612295.45,506987301523.3883
+2024-01-01,5450,Grants to States for Medicaid,SARIMA,385514546911.86,720396040240.5232
+2024-04-01,5450,Grants to States for Medicaid,SARIMA,527789998483.13,883390963436.6577
+2024-07-01,5450,Grants to States for Medicaid,SARIMA,689574729050.88,1097127191301.9382
+2022-10-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,107353183274.32,124867474740.55882
+2023-01-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,243799586518.43,245649895190.35886
+2023-04-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,378433547643.05,370699807256.76556
+2023-07-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,511359423958.86,499149139130.6699
+2023-10-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,111498376840.58,147747147191.1009
+2024-01-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,241210016668.56,268189698252.61172
+2024-04-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,383663795522.49,434674738263.11676
+2024-07-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,Prophet,526038920336.93,569324218709.3351
+2022-10-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,107353183274.32,145133095035.26212
+2023-01-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,243799586518.43,260482281990.5798
+2023-04-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,378433547643.05,357841921240.16943
+2023-07-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,511359423958.86,507651695804.6203
+2023-10-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,111498376840.58,174624901600.4384
+2024-01-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,241210016668.56,290983106955.60223
+2024-04-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,383663795522.49,386398804035.97925
+2024-07-01,5598,Federal Supplementary Medical Insurance Trust Fund-Treasury Managed,SARIMA,526038920336.93,539371393092.11505
+2022-10-01,5459,Payments to Health Care Trust Funds,Prophet,122405206877.3,119970984650.34204
+2023-01-01,5459,Payments to Health Care Trust Funds,Prophet,243639619226.77,238390733853.81476
+2023-04-01,5459,Payments to Health Care Trust Funds,Prophet,354875343597.69,358724331249.6474
+2023-07-01,5459,Payments to Health Care Trust Funds,Prophet,470012080229.09,503148010348.50165
+2023-10-01,5459,Payments to Health Care Trust Funds,Prophet,120860861693.89,128392934228.21454
+2024-01-01,5459,Payments to Health Care Trust Funds,Prophet,244466485748.64,252264817923.91724
+2024-04-01,5459,Payments to Health Care Trust Funds,Prophet,371913433201.08,369463857013.1674
+2024-07-01,5459,Payments to Health Care Trust Funds,Prophet,502888353997.83,476784252771.7212
+2022-10-01,5459,Payments to Health Care Trust Funds,SARIMA,122405206877.3,3974496828160.462
+2023-01-01,5459,Payments to Health Care Trust Funds,SARIMA,243639619226.77,19144373832352.574
+2023-04-01,5459,Payments to Health Care Trust Funds,SARIMA,354875343597.69,78595682352061.72
+2023-07-01,5459,Payments to Health Care Trust Funds,SARIMA,470012080229.09,312616711272186.6
+2023-10-01,5459,Payments to Health Care Trust Funds,SARIMA,120860861693.89,1238046275670333.8
+2024-01-01,5459,Payments to Health Care Trust Funds,SARIMA,244466485748.64,4887122454581284.0
+2024-04-01,5459,Payments to Health Care Trust Funds,SARIMA,371913433201.08,1.927028469963083e+16
+2024-07-01,5459,Payments to Health Care Trust Funds,SARIMA,502888353997.83,7.596385033712498e+16
+2022-10-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,96720998426.33,102997262574.61555
+2023-01-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,205602727344.02,206696514824.3853
+2023-04-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,313505155777.56,259757767354.3841
+2023-07-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,421422983429.68,404495296778.7517
+2023-10-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,87161866230.72,111761874379.51155
+2024-01-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,195340403231.2,215703859570.97116
+2024-04-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,299767295399.19,384868072918.5601
+2024-07-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,Prophet,388833702012.3,505863340548.29004
+2022-10-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,96720998426.33,104724583423.61926
+2023-01-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,205602727344.02,204673286860.36896
+2023-04-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,313505155777.56,283206945600.8221
+2023-07-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,421422983429.68,406304673423.9459
+2023-10-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,87161866230.72,114440206816.9302
+2024-01-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,195340403231.2,214749201767.67346
+2024-04-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,299767295399.19,292811425288.5661
+2024-07-01,5599,Federal Hospital Insurance Trust Fund - Treasury Managed,SARIMA,388833702012.3,416263298383.25745
+2022-10-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,63219836108.86,34641730157.42017
+2023-01-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,215965631874.49,159387182075.00146
+2023-04-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,367898218703.76,250151634703.73816
+2023-07-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,433891894882.21,274022994298.1196
+2023-10-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,56737580786.19,17503252807.98081
+2024-01-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,191271619233.84,145922946606.41254
+2024-04-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,311338631582.26,208520740742.82898
+2024-07-01,4329,Refunding Internal Revenue Collections (Indefinite),Prophet,333914315277.14,256021148555.38153
+2022-10-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,63219836108.86,41648852268.84375
+2023-01-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,215965631874.49,147220315945.5079
+2023-04-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,367898218703.76,260868301526.41998
+2023-07-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,433891894882.21,312260986603.1207
+2023-10-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,56737580786.19,45686236782.62982
+2024-01-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,191271619233.84,150214429774.362
+2024-04-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,311338631582.26,261834642762.03232
+2024-07-01,4329,Refunding Internal Revenue Collections (Indefinite),SARIMA,333914315277.14,312721711992.4758
+2022-10-01,5963,Payments to Military Retirement Fund,Prophet,120438000000.0,121326477171.52084
+2023-01-01,5963,Payments to Military Retirement Fund,Prophet,120438000000.0,120742209160.48875
+2023-04-01,5963,Payments to Military Retirement Fund,Prophet,120438000000.0,118270213933.71898
+2023-07-01,5963,Payments to Military Retirement Fund,Prophet,120438000000.0,115917360056.41426
+2023-10-01,5963,Payments to Military Retirement Fund,Prophet,151521000000.0,132855013068.4053
+2024-01-01,5963,Payments to Military Retirement Fund,Prophet,151521000000.0,130404265381.7991
+2024-04-01,5963,Payments to Military Retirement Fund,Prophet,151521000000.0,128135537241.09767
+2024-07-01,5963,Payments to Military Retirement Fund,Prophet,151521000000.0,126007709710.22586
+2022-10-01,5963,Payments to Military Retirement Fund,SARIMA,120438000000.0,124598168978.73108
+2023-01-01,5963,Payments to Military Retirement Fund,SARIMA,120438000000.0,124598168978.73108
+2023-04-01,5963,Payments to Military Retirement Fund,SARIMA,120438000000.0,124598168978.73108
+2023-07-01,5963,Payments to Military Retirement Fund,SARIMA,120438000000.0,124598168978.73108
+2023-10-01,5963,Payments to Military Retirement Fund,SARIMA,151521000000.0,135222589682.62543
+2024-01-01,5963,Payments to Military Retirement Fund,SARIMA,151521000000.0,135222589682.62543
+2024-04-01,5963,Payments to Military Retirement Fund,SARIMA,151521000000.0,135222589682.62543
+2024-07-01,5963,Payments to Military Retirement Fund,SARIMA,151521000000.0,135222589682.62543
+2022-10-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,37445401678.4,38443605732.2301
+2023-01-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,80561776283.75,77667976448.83844
+2023-04-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,119000618081.11,116351973213.55766
+2023-07-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,158210335740.4,153825650307.67664
+2023-10-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,39099376369.52,40327918327.70691
+2024-01-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,80853898285.91,78304302494.27081
+2024-04-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,121010105421.09,113037647678.2061
+2024-07-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,Prophet,159933138456.16,146504649377.45383
+2022-10-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,37445401678.4,40084785456.703354
+2023-01-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,80561776283.75,77785857710.30853
+2023-04-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,119000618081.11,113390509638.09642
+2023-07-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,158210335740.4,149058736252.02808
+2023-10-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,39099376369.52,40829038663.66584
+2024-01-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,80853898285.91,79234708514.16554
+2024-04-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,121010105421.09,115255941782.79784
+2024-07-01,4617,Federal Disability Insurance Trust Fund - Treasury Managed,SARIMA,159933138456.16,151551825994.26285
+2022-10-01,6018,Department of Defense Working Capital Fund,Prophet,41481747158.64,40344196276.46026
+2023-01-01,6018,Department of Defense Working Capital Fund,Prophet,77773927754.7,80112928289.03525
+2023-04-01,6018,Department of Defense Working Capital Fund,Prophet,112096715921.12,122003113352.6281
+2023-07-01,6018,Department of Defense Working Capital Fund,Prophet,156083858596.95,164013048607.32162
+2023-10-01,6018,Department of Defense Working Capital Fund,Prophet,42035369617.03,44833615450.96232
+2024-01-01,6018,Department of Defense Working Capital Fund,Prophet,78767582414.46,88459358650.39023
+2024-04-01,6018,Department of Defense Working Capital Fund,Prophet,113935232589.08,131503973273.5847
+2024-07-01,6018,Department of Defense Working Capital Fund,Prophet,159375755095.31,185920034337.77878
+2022-10-01,6018,Department of Defense Working Capital Fund,SARIMA,41481747158.64,48638898162.060776
+2023-01-01,6018,Department of Defense Working Capital Fund,SARIMA,77773927754.7,83850441834.15643
+2023-04-01,6018,Department of Defense Working Capital Fund,SARIMA,112096715921.12,118190084584.87466
+2023-07-01,6018,Department of Defense Working Capital Fund,SARIMA,156083858596.95,157578330026.97113
+2023-10-01,6018,Department of Defense Working Capital Fund,SARIMA,42035369617.03,59629767179.964005
+2024-01-01,6018,Department of Defense Working Capital Fund,SARIMA,78767582414.46,94962459032.60075
+2024-04-01,6018,Department of Defense Working Capital Fund,SARIMA,113935232589.08,129516832840.89485
+2024-07-01,6018,Department of Defense Working Capital Fund,SARIMA,159375755095.31,168967499167.98856
+2022-10-01,4649,Compensation and Pensions,Prophet,37905867677.2,36441906830.2109
+2023-01-01,4649,Compensation and Pensions,Prophet,75504364176.78,70195539545.75896
+2023-04-01,4649,Compensation and Pensions,Prophet,114373638852.72,105982563763.43365
+2023-07-01,4649,Compensation and Pensions,Prophet,153224856386.81,143126827944.31058
+2023-10-01,4649,Compensation and Pensions,Prophet,44580418253.23,39206731769.88654
+2024-01-01,4649,Compensation and Pensions,Prophet,87971206120.03,74603605574.13974
+2024-04-01,4649,Compensation and Pensions,Prophet,131821319358.58,106152861135.1202
+2024-07-01,4649,Compensation and Pensions,Prophet,177918274520.18,137362441289.17763
+2022-10-01,4649,Compensation and Pensions,SARIMA,37905867677.2,47497586027.9828
+2023-01-01,4649,Compensation and Pensions,SARIMA,75504364176.78,81225985432.28276
+2023-04-01,4649,Compensation and Pensions,SARIMA,114373638852.72,116707852431.57504
+2023-07-01,4649,Compensation and Pensions,SARIMA,153224856386.81,152315700001.73825
+2023-10-01,4649,Compensation and Pensions,SARIMA,44580418253.23,68128758106.50581
+2024-01-01,4649,Compensation and Pensions,SARIMA,87971206120.03,103465215352.88448
+2024-04-01,4649,Compensation and Pensions,SARIMA,131821319358.58,140991358229.3385
+2024-07-01,4649,Compensation and Pensions,SARIMA,177918274520.18,178782646929.25873
+2022-10-01,6326,U.S. Coronavirus Payments,Prophet,1006392556.26,880149624338.398
+2023-01-01,6326,U.S. Coronavirus Payments,Prophet,1509500157.71,-464431962635.5747
+2023-04-01,6326,U.S. Coronavirus Payments,Prophet,1915245140.12,-357067482425.48315
+2023-07-01,6326,U.S. Coronavirus Payments,Prophet,2177504857.92,-181783693966.52435
+2023-10-01,6326,U.S. Coronavirus Payments,Prophet,156124309.14,2386970556786.354
+2024-01-01,6326,U.S. Coronavirus Payments,Prophet,295755902.49,-1263490359887.8389
+2024-04-01,6326,U.S. Coronavirus Payments,Prophet,474660600.49,1062201185313.4967
+2024-07-01,6326,U.S. Coronavirus Payments,Prophet,604902156.82,500748500799.07556
+2022-10-01,6326,U.S. Coronavirus Payments,SARIMA,1006392556.26,-256476271945.21008
+2023-01-01,6326,U.S. Coronavirus Payments,SARIMA,1509500157.71,-384881716545.2527
+2023-04-01,6326,U.S. Coronavirus Payments,SARIMA,1915245140.12,-399431598217.89777
+2023-07-01,6326,U.S. Coronavirus Payments,SARIMA,2177504857.92,-400838937074.445
+2023-10-01,6326,U.S. Coronavirus Payments,SARIMA,156124309.14,-670016456284.4333
+2024-01-01,6326,U.S. Coronavirus Payments,SARIMA,295755902.49,-835070295953.9309
+2024-04-01,6326,U.S. Coronavirus Payments,SARIMA,474660600.49,-854728754850.4906
+2024-07-01,6326,U.S. Coronavirus Payments,SARIMA,604902156.82,-856822938630.5009
+2022-10-01,3551,Supplemental Nutrition Assistance Program,Prophet,41719537958.32,37988718567.91738
+2023-01-01,3551,Supplemental Nutrition Assistance Program,Prophet,82326853775.74,66323356753.45259
+2023-04-01,3551,Supplemental Nutrition Assistance Program,Prophet,109038433316.5,79269009162.0898
+2023-07-01,3551,Supplemental Nutrition Assistance Program,Prophet,158718505903.87,102506654647.60283
+2023-10-01,3551,Supplemental Nutrition Assistance Program,Prophet,30032436846.34,17934797930.82064
+2024-01-01,3551,Supplemental Nutrition Assistance Program,Prophet,55752915223.2,42306666625.554276
+2024-04-01,3551,Supplemental Nutrition Assistance Program,Prophet,81408154791.82,98750312093.42783
+2024-07-01,3551,Supplemental Nutrition Assistance Program,Prophet,117404618129.75,150296533434.90103
+2022-10-01,3551,Supplemental Nutrition Assistance Program,SARIMA,41719537958.32,27936109517.605156
+2023-01-01,3551,Supplemental Nutrition Assistance Program,SARIMA,82326853775.74,53029591525.776634
+2023-04-01,3551,Supplemental Nutrition Assistance Program,SARIMA,109038433316.5,69020979487.12772
+2023-07-01,3551,Supplemental Nutrition Assistance Program,SARIMA,158718505903.87,93578271615.91687
+2023-10-01,3551,Supplemental Nutrition Assistance Program,SARIMA,30032436846.34,-48637291201.24858
+2024-01-01,3551,Supplemental Nutrition Assistance Program,SARIMA,55752915223.2,-34322277645.952126
+2024-04-01,3551,Supplemental Nutrition Assistance Program,SARIMA,81408154791.82,-33425389265.7409
+2024-07-01,3551,Supplemental Nutrition Assistance Program,SARIMA,117404618129.75,-19510398203.53039
+2022-10-01,5380,Business Loans Program Account,Prophet,37942394.0,-262288784.1466846
+2023-01-01,5380,Business Loans Program Account,Prophet,166366220.0,-97118201075.79977
+2023-04-01,5380,Business Loans Program Account,Prophet,275635885.0,-3388498340.8300476
+2023-07-01,5380,Business Loans Program Account,Prophet,277273848.2,1803788098.8857837
+2023-10-01,5380,Business Loans Program Account,Prophet,56952289.62,-123733503167.96469
+2024-01-01,5380,Business Loans Program Account,Prophet,92745887.55,-113278889040.97704
+2024-04-01,5380,Business Loans Program Account,Prophet,525600501.75,1112765084572.8784
+2024-07-01,5380,Business Loans Program Account,Prophet,570432646.83,1064530706293.0818
+2022-10-01,5380,Business Loans Program Account,SARIMA,37942394.0,-270479516515.40277
+2023-01-01,5380,Business Loans Program Account,SARIMA,166366220.0,-154384487540.1541
+2023-04-01,5380,Business Loans Program Account,SARIMA,275635885.0,-112902648377.33725
+2023-07-01,5380,Business Loans Program Account,SARIMA,277273848.2,-108785124024.21204
+2023-10-01,5380,Business Loans Program Account,SARIMA,56952289.62,-353011635868.85333
+2024-01-01,5380,Business Loans Program Account,SARIMA,92745887.55,-281691642104.3779
+2024-04-01,5380,Business Loans Program Account,SARIMA,525600501.75,-252332727028.00674
+2024-07-01,5380,Business Loans Program Account,SARIMA,570432646.83,-249607686329.673
+2022-10-01,5610,Medicare Prescription Drug Account,Prophet,14645231042.71,23823625451.049725
+2023-01-01,5610,Medicare Prescription Drug Account,Prophet,52974217020.3,55714116874.49032
+2023-04-01,5610,Medicare Prescription Drug Account,Prophet,82102451961.24,86362162156.72417
+2023-07-01,5610,Medicare Prescription Drug Account,Prophet,113705579173.46,133095251791.78209
+2023-10-01,5610,Medicare Prescription Drug Account,Prophet,13729959769.03,27065621672.09241
+2024-01-01,5610,Medicare Prescription Drug Account,Prophet,47151045071.66,61741603139.21088
+2024-04-01,5610,Medicare Prescription Drug Account,Prophet,82078359038.75,107302383262.72745
+2024-07-01,5610,Medicare Prescription Drug Account,Prophet,121132540868.08,144693554841.7248
+2022-10-01,5610,Medicare Prescription Drug Account,SARIMA,14645231042.71,32446639097.584373
+2023-01-01,5610,Medicare Prescription Drug Account,SARIMA,52974217020.3,60317131787.71063
+2023-04-01,5610,Medicare Prescription Drug Account,SARIMA,82102451961.24,87832964113.40546
+2023-07-01,5610,Medicare Prescription Drug Account,SARIMA,113705579173.46,123595143434.24878
+2023-10-01,5610,Medicare Prescription Drug Account,SARIMA,13729959769.03,41867152153.4527
+2024-01-01,5610,Medicare Prescription Drug Account,SARIMA,47151045071.66,69920523560.52296
+2024-04-01,5610,Medicare Prescription Drug Account,SARIMA,82078359038.75,97593804364.37556
+2024-07-01,5610,Medicare Prescription Drug Account,SARIMA,121132540868.08,133685263193.05118
+2022-10-01,4580,Civil Service Retirement and Disability Fund,Prophet,25093438130.49,24635441398.08745
+2023-01-01,4580,Civil Service Retirement and Disability Fund,Prophet,51848314378.63,51115986894.75626
+2023-04-01,4580,Civil Service Retirement and Disability Fund,Prophet,78329194303.36,77935237144.91118
+2023-07-01,4580,Civil Service Retirement and Disability Fund,Prophet,95753565272.14,105396492336.43665
+2023-10-01,4580,Civil Service Retirement and Disability Fund,Prophet,26621357512.94,24978974343.959896
+2024-01-01,4580,Civil Service Retirement and Disability Fund,Prophet,53704164807.72,53414042367.00874
+2024-04-01,4580,Civil Service Retirement and Disability Fund,Prophet,80888167458.59,82923213921.6553
+2024-07-01,4580,Civil Service Retirement and Disability Fund,Prophet,98789483212.44,113396044444.87234
+2022-10-01,4580,Civil Service Retirement and Disability Fund,SARIMA,25093438130.49,506801475582.8279
+2023-01-01,4580,Civil Service Retirement and Disability Fund,SARIMA,51848314378.63,1447973320044.028
+2023-04-01,4580,Civil Service Retirement and Disability Fund,SARIMA,78329194303.36,3218329088093.457
+2023-07-01,4580,Civil Service Retirement and Disability Fund,SARIMA,95753565272.14,6571153173206.373
+2023-10-01,4580,Civil Service Retirement and Disability Fund,SARIMA,26621357512.94,13766934616433.129
+2024-01-01,4580,Civil Service Retirement and Disability Fund,SARIMA,53704164807.72,27653637201480.0
+2024-04-01,4580,Civil Service Retirement and Disability Fund,SARIMA,80888167458.59,54112183030460.81
+2024-07-01,4580,Civil Service Retirement and Disability Fund,SARIMA,98789483212.44,104549397539611.06
+2022-10-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,6656550440.02,2314418586.7119694
+2023-01-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,18066682336.53,-1880860120.8553786
+2023-04-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,25936082269.38,25451434922.794563
+2023-07-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,35704534602.92,38117997162.2741
+2023-10-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,9857532550.87,-174365661209.4769
+2024-01-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,20036234448.46,-155567262560.1589
+2024-04-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,33501810943.99,-6027042121.778654
+2024-07-01,4141,Unemployment Trust Fund - Treasury Managed,Prophet,43689841458.71,142389641717.88126
+2022-10-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,6656550440.02,-120572747862.15211
+2023-01-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,18066682336.53,-113293616488.1499
+2023-04-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,25936082269.38,-132595387507.93427
+2023-07-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,35704534602.92,-111878403467.05704
+2023-10-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,9857532550.87,-276342045139.4058
+2024-01-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,20036234448.46,-269092931398.5474
+2024-04-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,33501810943.99,-288422891441.9251
+2024-07-01,4141,Unemployment Trust Fund - Treasury Managed,SARIMA,43689841458.71,-267719813718.27576
+2022-10-01,5887,Federal Direct Student Loan Program,Prophet,22985752902.0,-1919746467.136881
+2023-01-01,5887,Federal Direct Student Loan Program,Prophet,46139491978.0,-1559540160.613711
+2023-04-01,5887,Federal Direct Student Loan Program,Prophet,66073404265.5,108936458332.03447
+2023-07-01,5887,Federal Direct Student Loan Program,Prophet,145913903725.5,817753276481.6135
+2023-10-01,5887,Federal Direct Student Loan Program,Prophet,5291582009.0,-4228748340.228925
+2024-01-01,5887,Federal Direct Student Loan Program,Prophet,5291582009.0,-3401826251.112366
+2024-04-01,5887,Federal Direct Student Loan Program,Prophet,85246016392.0,201984171461.50024
+2024-07-01,5887,Federal Direct Student Loan Program,Prophet,114182773267.0,1149880958015.747
+2022-10-01,5887,Federal Direct Student Loan Program,SARIMA,22985752902.0,471365953526.3117
+2023-01-01,5887,Federal Direct Student Loan Program,SARIMA,46139491978.0,447253560329.5678
+2023-04-01,5887,Federal Direct Student Loan Program,SARIMA,66073404265.5,505459975287.7212
+2023-07-01,5887,Federal Direct Student Loan Program,SARIMA,145913903725.5,1811685790988.2627
+2023-10-01,5887,Federal Direct Student Loan Program,SARIMA,5291582009.0,2065214858101.471
+2024-01-01,5887,Federal Direct Student Loan Program,SARIMA,5291582009.0,1978495603940.8635
+2024-04-01,5887,Federal Direct Student Loan Program,SARIMA,85246016392.0,2077008077703.82
+2024-07-01,5887,Federal Direct Student Loan Program,SARIMA,114182773267.0,5650142884803.319
+2022-10-01,4352,Refundable Premium Assistance Tax Credit,Prophet,21278078944.25,23542078954.188576
+2023-01-01,4352,Refundable Premium Assistance Tax Credit,Prophet,46080111866.83,47497910239.20075
+2023-04-01,4352,Refundable Premium Assistance Tax Credit,Prophet,73957868054.58,72275311770.69661
+2023-07-01,4352,Refundable Premium Assistance Tax Credit,Prophet,100256616317.22,96186682511.74138
+2023-10-01,4352,Refundable Premium Assistance Tax Credit,Prophet,27616347189.08,28349304111.385353
+2024-01-01,4352,Refundable Premium Assistance Tax Credit,Prophet,58257604481.12,53390783876.32917
+2024-04-01,4352,Refundable Premium Assistance Tax Credit,Prophet,93082180201.34,79585659773.08624
+2024-07-01,4352,Refundable Premium Assistance Tax Credit,Prophet,134834588776.1,104343265169.25175
+2022-10-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,21278078944.25,36236132945.23254
+2023-01-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,46080111866.83,60690100495.039474
+2023-04-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,73957868054.58,82444112856.19946
+2023-07-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,100256616317.22,107209547232.77881
+2023-10-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,27616347189.08,57199597914.21687
+2024-01-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,58257604481.12,83920656715.75786
+2024-04-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,93082180201.34,106437784714.29025
+2024-07-01,4352,Refundable Premium Assistance Tax Credit,SARIMA,134834588776.1,132502282468.83646
+2022-10-01,4501,Operation and Maintenance,Prophet,14232175446.03,17062058555.195976
+2023-01-01,4501,Operation and Maintenance,Prophet,36415402560.9,35581565382.08552
+2023-04-01,4501,Operation and Maintenance,Prophet,54511265722.34,60631270135.255844
+2023-07-01,4501,Operation and Maintenance,Prophet,78155724087.23,81131802434.2218
+2023-10-01,4501,Operation and Maintenance,Prophet,20227430013.62,17276116157.38192
+2024-01-01,4501,Operation and Maintenance,Prophet,36721301024.52,40462234502.45368
+2024-04-01,4501,Operation and Maintenance,Prophet,57079518683.04,58143235243.797485
+2024-07-01,4501,Operation and Maintenance,Prophet,81906189738.43,83633197852.8435
+2022-10-01,4501,Operation and Maintenance,SARIMA,14232175446.03,16706869751.164257
+2023-01-01,4501,Operation and Maintenance,SARIMA,36415402560.9,30876974598.76853
+2023-04-01,4501,Operation and Maintenance,SARIMA,54511265722.34,53339483061.77083
+2023-07-01,4501,Operation and Maintenance,SARIMA,78155724087.23,69404034800.24284
+2023-10-01,4501,Operation and Maintenance,SARIMA,20227430013.62,13989934597.415237
+2024-01-01,4501,Operation and Maintenance,SARIMA,36721301024.52,27827193548.833958
+2024-04-01,4501,Operation and Maintenance,SARIMA,57079518683.04,54834594078.151665
+2024-07-01,4501,Operation and Maintenance,SARIMA,81906189738.43,69223740495.27487

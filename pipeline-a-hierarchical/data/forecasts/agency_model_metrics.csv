@@ -1,0 +1,4 @@
+Model,MAE ($B),RMSE ($B),MAPE (%)
+Prophet,1905.83,2331.17,30.6
+SARIMA,143.6,156.72,3.8
+XGBoost,259.77,277.88,5.4

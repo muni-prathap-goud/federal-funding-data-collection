@@ -164,5 +164,15 @@ Temporary Items
 pipeline-a-hierarchical/data/awards_ALL_FY.csv
 pipeline-a-hierarchical/data/recipients_ALL_FY.csv
 
+# Large cleaned/raw data directories (too large for Git)
+pipeline-a-hierarchical/data/cleaned/
+pipeline-a-hierarchical/data/raw/
+pipeline-b-geography/data/agency-geography/
+pipeline-b-geography/data/basic-geography/cleaned/
+pipeline-b-geography/data/basic-geography/raw/
+
+# Forecast outputs are small — keep them tracked
+!pipeline-a-hierarchical/data/forecasts/
+
 # VS Code
 .vscode/
