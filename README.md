@@ -1,5 +1,7 @@
 # Federal Funding Forecasts & Data Collection Pipelines
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://federal-funding-data-collection-laxuv3nnnhlcvxcaa2umqy.streamlit.app/)
+
 > End-to-end Python pipelines that pull 17 years of U.S. federal spending data from the USASpending.gov REST API, forecast it across four hierarchical layers using three models, and present the results in an interactive Streamlit dashboard.
 
 ---
@@ -38,14 +40,16 @@ This is the kind of finding you only get by actually running the comparison inst
 
 ## Live Dashboard
 
-The Streamlit app (`dashboard/`) presents the forecasts and model comparison across 5 pages:
+**Live URL:** https://federal-funding-data-collection-laxuv3nnnhlcvxcaa2umqy.streamlit.app/
+
+The Streamlit app (`dashboard/`) presents the forecasts and model comparison across 6 pages:
 
 1. **Overview** (`app.py`) — Model performance heatmap, central finding, total predictions
 2. **Budget Functions** — Layer-1 forecasts and accuracy
 3. **Agencies** — Agency-level forecasts
 4. **Federal Accounts** — Account-level forecasts
-5. **Geography** — Country/state/county forecasts
-6. **Model Comparison** — Side-by-side model performance
+5. **Geography** — State-level forecasts + per-capita choropleth map
+6. **Model Comparison** — Side-by-side model performance, feature importance, recommendation matrix
 
 To run locally:
 ```bash
@@ -175,7 +179,6 @@ Open `http://localhost:8501` to view the dashboard.
 
 ## Future Improvements
 
-- Deploy the dashboard to Streamlit Community Cloud for a public live URL
 - Add confidence-interval visualization (Prophet provides them natively)
 - Add cross-validation instead of a single holdout
 - Try LightGBM and CatBoost as XGBoost alternatives
